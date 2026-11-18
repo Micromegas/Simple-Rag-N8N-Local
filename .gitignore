@@ -1,0 +1,22 @@
+# Secrets y configuración personal
+.env
+.env.*
+!.env.example
+
+# Datos locales, cachés y archivos temporales
+*.log
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.idea/
+.vscode/
+Thumbs.db
+Desktop.ini
+
+# Documentos de prueba del usuario
+*.pdf
+*.docx
+
+# Exportaciones locales de workflows; publicar solo las copias saneadas
+n8n/workflows/
